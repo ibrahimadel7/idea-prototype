@@ -28,13 +28,13 @@ Open **two terminals** in the project directory.
 ### Terminal 1 – Start the FastAPI backend
 
 ```bash
-uvicorn backend:app --host 127.0.0.1 --port 8000
+python -m uvicorn backend:app --host 127.0.0.1 --port 8000
 ```
 
 ### Terminal 2 – Start the Streamlit frontend
 
 ```bash
-streamlit run frontend.py
+python -m streamlit run frontend.py
 ```
 
 Then open the URL shown by Streamlit (usually http://localhost:8501) in your browser.
